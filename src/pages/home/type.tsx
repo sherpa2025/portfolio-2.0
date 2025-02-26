@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import waveHand from "../../assets/wave-hand.png";
 import namaste from "../../assets/namaste.png";
 import { TypewriterClass } from "../../types";
+import "./home.module.css";
 
 const Type: React.FC = () => {
   const [currentString, setCurrentString] = useState("HELLO!");
