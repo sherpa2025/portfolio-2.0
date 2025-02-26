@@ -13,8 +13,8 @@ const Type: React.FC = () => {
       .callFunction(() => setCurrentString("HELLO!"))
       .pauseFor(3000)
       .deleteAll()
-      .typeString("नमस्ते !")
-      .callFunction(() => setCurrentString("नमस्ते !"))
+      .typeString("नमस्ते")
+      .callFunction(() => setCurrentString("नमस्ते"))
       .pauseFor(3000)
       .start();
   };
