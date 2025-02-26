@@ -1,35 +1,193 @@
+/* Wrapper element to hold the background images */
+.page-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Adjust height as needed */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+
+.top {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.break-line {
+  display: block;
+}
+
 .content-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .home-content {
   font-size: 45px;
-  margin: 0 30px 30px 0;
+  margin: 0 0 30px 0;
+}
+
+.typewriter-prompt {
+  color: #124076;
+  margin-top: 30px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 45px;
 }
 
 .main-name {
   color: #124076;
 }
 
-.typewriter-prompt {
-  color: #124076;
-  margin-top: 30px;
-  font-size: 25px;
-  font-weight: 600;
+.artImage {
+  max-height: 450px;
+  width: 100%;
 }
 
-@media (min-width: 768px) {
-  .content-container {
-    flex-direction: row;
+.introduce-section {
+  margin: 150px 50px 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-heading {
+  font-size: 2.8rem;
+  margin: 0px 0px 10px 100px;
+}
+.introduction {
+  font-size: 1.4rem;
+}
+.profileImage {
+  max-height: 400px;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.tools-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tool-heading {
+  font-size: 2.8rem;
+}
+.tool-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the tools horizontally */
+  gap: 20px; /* Adds space between items */
+  max-width: 800px; /* Optional: limits width */
+}
+
+.tool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 15px; /* Adjust padding */
+  transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 8px 15px rgba(12, 116, 214, 0.3);
+}
+
+.tool:hover {
+  box-shadow: 0px 10px 30px rgba(12, 116, 214, 0.8);
+}
+
+.tool-image {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width: 1100px) {
+  .artImage .profileImage {
+    height: 370px;
   }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 946px) {
   .content-container {
     flex-direction: column;
+    align-items: center;
   }
-  .profileImage {
-    width: 100%;
+
+  .typewriter-prompt {
+    font-size: 35px;
+  }
+
+  .name {
+    font-size: 35px;
+  }
+
+  .artImage {
     height: 350px;
+  }
+
+  .profileImage {
+    height: 250px;
+  }
+  .introduction {
+    font-size: 1.2rem;
+  }
+  .intro-heading {
+    font-size: 2rem;
+    margin: 0px 0px 10px 60px;
+  }
+
+  .tool-heading {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .typewriter-prompt {
+    font-size: 25px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .artImage {
+    height: 250px;
+  }
+
+  .profileImage {
+    height: 150px;
+  }
+
+  .intro-heading {
+    font-size: 1.4rem;
+    margin: 0px 0px 10px 40px;
+  }
+  .introduction {
+    font-size: 1rem;
+  }
+
+  .tool-heading {
+    font-size: 1.9rem;
   }
 }

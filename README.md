@@ -28,3 +28,12 @@ This is a personal portfolio website showcasing my projects and contact details.
 <a href="https://storyset.com/web">Web illustrations by Storyset</a>
 <br>
 <a href="https://www.flaticon.com/free-icons/demo" title="demo icons">Demo icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/wave-hand" title="wave hand icons">Wave hand icons created by ekays.dsgn - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/namaste" title="namaste icons">Namaste icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic-design icons">Graphic-design icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/indesign" title="indesign icons">Indesign icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/pdf" title="pdf icons">Pdf icons created by Smashicons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by Freepik - Flaticon</a>
+<a href="https://storyset.com/people">People illustrations by Storyset</a>
+<a href="https://www.flaticon.com/free-icons/line" title="line icons">Line icons created by Roundicons Premium - Flaticon</a>

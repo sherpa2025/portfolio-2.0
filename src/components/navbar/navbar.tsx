@@ -26,12 +26,12 @@ function Navbar() {
   }, [location, dispatch]);
 
   return (
-    <Box p={4}>
+    <Box p={4} className={style.navbar}>
       <Flex justifyContent="space-between" alignItems="center">
         <div className={style.brand}>
-          <Link to="/">N Sherpa</Link>
+          <Link to="/">D Sherpa</Link>
         </div>
-        <Flex className={style.navLinks} fontSize="20px">
+        <Flex className={style.navLinks}>
           <Link
             to="/"
             className={activeItem === "Home" ? style.active : ""}
@@ -39,27 +39,12 @@ function Navbar() {
           >
             Home
           </Link>
-          {/* Future task
-          <Link
-            to="/about"
-            className={activeItem === "About" ? style.active : ""}
-            onClick={() => handleItemClick("About")}
-          >
-            About
-          </Link> */}
           <Link
             to="/projects"
             className={activeItem === "Projects" ? style.active : ""}
             onClick={() => handleItemClick("Projects")}
           >
             Projects
-          </Link>
-          <Link
-            to="/contact"
-            className={activeItem === "Contact" ? style.active : ""}
-            onClick={() => handleItemClick("Contact")}
-          >
-            Contact
           </Link>
         </Flex>
       </Flex>
