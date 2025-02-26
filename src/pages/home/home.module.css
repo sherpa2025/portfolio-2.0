@@ -1,4 +1,9 @@
-/* Wrapper element to hold the background images */
+/* CSS for the type.tsx */
+.typewriter-text.नमस्ते {
+  font-family: "Noto Sans Devanagari", sans-serif; /* Font for Hindi text */
+}
+
+/* CSS for the home.tsx */
 .page-wrapper {
   position: relative;
   width: 100%;

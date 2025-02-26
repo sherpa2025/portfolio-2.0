@@ -29,6 +29,7 @@ const Type: React.FC = () => {
           autoStart: true,
           loop: true,
           deleteSpeed: 50,
+          wrapperClassName: "typewriter-text",
         }}
       />
 
