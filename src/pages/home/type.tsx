@@ -17,10 +17,21 @@ const Type: React.FC = () => {
       .typeString("नमस्ते")
       .callFunction(() => setCurrentString("नमस्ते"))
       .pauseFor(3000)
-      .start();
+      .start(); // Make sure to restart the loop
   };
 
   const icon = currentString.charAt(0) === "H" ? waveHand : namaste;
+
+  // Define dynamic styles for text based on the currentString
+  const typewriterStyle = {
+    fontFamily:
+      currentString === "HELLO!"
+        ? '"Noto Sans Devanagari", "Mangal", sans-serif'
+        : '"Raleway", sans-serif',
+    fontSize: "30px", // Adjust size as needed
+    color: "#333", // Adjust color if needed
+    WebkitFontSmoothing: "antialiased", // For better font rendering in Safari
+  };
 
   return (
     <div style={{ display: "flex", alignItems: "center" }}>
@@ -30,8 +41,9 @@ const Type: React.FC = () => {
           autoStart: true,
           loop: true,
           deleteSpeed: 50,
-          wrapperClassName: "typewriter-text",
+          wrapperClassName: "typewriter-text", // Keep this for base styling
         }}
+        style={typewriterStyle} // Apply dynamic styles based on currentString
       />
 
       <img

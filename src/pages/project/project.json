@@ -4,43 +4,38 @@
     "title": "Unity Valley",
     "description": "Unity Valley is designed as an interconnected community where various building types, such as high and low-income housing, commercial spaces, parks, apartments, and transit areas, work together. The goal was to create a balanced site plan that provides easy access to amenities, diverse housing options, and a connection to nature, while considering factors like traffic flow and views.",
     "pdfLink": "https://drive.google.com/file/d/1wS5zGBzNT9L2aPv8EHBfSdP06EJ3avUm/view?usp=drive_link",
-    "tools": ["React", "HTML", "CSS", "Node.js", "JavaScript"],
+    "tools": ["SketchUp", "Streetmix", "Adobe: Indesign"],
     "summary": "The task was to develop a site plan that integrates these elements effectively. I built upon the third iteration of the bubble diagram to position high-income housing near commercial areas, parks, and transit for easy access. Mixed-use spaces were placed on both the west and east sides for varied housing options and scenic views. Public spaces were centrally located to connect residents with nature, and low-income housing was placed near the creek for scenic views. The busy street was positioned on the north side to manage traffic near commercial and transit hubs. The site plan was layered by building types and street lines to assess accessibility and interaction between spaces. This approach resulted in a well-integrated site plan that balances functional needs, accessibility, and visual appeal.",
-    "course": "LANDSCAPE"
+    "course": "URBAN PLANNING"
   },
   {
     "imageSrc": "/projects photo/Muenzinger Building.png",
     "title": "Muenzinger Building",
     "description": "I engaged in the campus rendering process, aiming to improve my skills in Rhino while experimenting with color combinations. Inspired by anime’s clean and vibrant rendering style, I wanted to apply a similar aesthetic to my project. However, choosing the right colors was challenging, causing initial frustration as I struggled to create visually appealing combinations.",
     "pdfLink": "https://drive.google.com/file/d/1BCStpGAxWq3r6jV7il3PsoyCyibwZHzw/view?usp=drive_link",
-    "tools": [
-      "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker"
-    ],
+    "tools": ["Rhino", "Adobe: Photoshop", "Adobe: Indesign"],
     "summary": "To overcome these challenges, I explored different apps and techniques to refine my color choices, gradually adapting to the difficulties. Through persistent effort, I enhanced my understanding of design concepts and rendering techniques. In the end, this project became both a fun and educational experience, deepening my knowledge of color theory and improving my skills in digital rendering.",
-    "course": "PRODUCT DESIGN"
+    "course": "DESIGN"
   },
   {
     "imageSrc": "/projects photo/Diverse Space.png",
     "title": "Diverse Central Space",
     "description": "The project was focused on designing a space that promotes diversity and inclusion at CU, a university with many international students who may face challenges in connecting with others. The goal was to create a design that encourages interaction, cultural exchange, and a sense of belonging through thoughtfully organized spaces. The task was to design large, medium, and small spaces that support different types of gatherings and activities, with an emphasis on creating an inviting environment for students from diverse backgrounds.",
     "pdfLink": "https://drive.google.com/file/d/1x_l5VRMWaYM4Niu4bXbOsT7Xp0kgGQ0L/view?usp=drive_link",
-    "tools": ["React", "Node.js", "HTML", "CSS", "TypeScript", "ChakraUI"],
+    "tools": [
+      "SketchUp",
+      "Cardboard",
+      "Artifical Grass and other recycled materials"
+    ],
     "summary": "To address the diversity issue, I created a large gathering space for cultural events, which would help students from different countries interact and engage with each other. The medium spaces, one with nature and the other symbolized by a green line, were designed to connect people, offer relaxation, and provide an environment conducive to both studying and socializing. The medium space with nature and the green line served as bridges between the large and smaller spaces, promoting accessibility and a sense of unity. By focusing on visual details like plants, trees, and grass, the model highlighted the inviting and calming nature of the space. The result was a design that fosters community, connection, and engagement, helping international students feel more involved and supported.",
-    "course": "LANDSCAPE"
+    "course": "URBAN PLANNING"
   },
   {
     "imageSrc": "/projects photo/Lamp.png",
     "title": "Illuminote Innova",
     "description": "The project involved designing a table lamp with a focus on precision in measurement and detailed design. The task was to create an accurate model of the lamp by sketching each part, taking precise measurements (including the wire), and generating 3D model photos from multiple perspectives. The goal was to enhance my knowledge of design accuracy and how to represent a product through careful measurements and detailed modeling.",
     "pdfLink": "https://drive.google.com/file/d/1FDUN00V-9WT0DhzjFtspIJaw4dD10jGc/view?usp=drive_link",
-    "tools": ["React", "Node.js", "HTML", "CSS", "TypeScript"],
+    "tools": ["Rhino", "Adobe: Indesign"],
     "summary": "I started by sketching each component of the lamp, ensuring that measurements were precise to ensure correct fitting and functionality. I paid special attention to the wire dimensions, ensuring proper sizing for realistic use. Using these sketches and measurements, I built a 3D model of the lamp, showing it from various angles such as the whole lamp, adapter, top, front close-up, side, and back views. This helped emphasize the importance of precision in product design and improved my understanding of the connection between measurement and modeling. The result was a thorough and accurate representation of the lamp, demonstrating both technical skill and attention to detail, enhancing students' knowledge in design and modeling practices.",
     "course": "PRODUCT DESIGN"
   },
@@ -49,26 +44,35 @@
     "title": "The Himal",
     "description": "The project challenged me to design a luminaire that was not only aesthetically pleasing but also deeply personal, creating an inviting and friendly glow. The design brief questioned how to achieve a balance that avoids extremes in brightness—ensuring comfort while adding coziness and happiness to a space. My task was to conceptualize and develop a \"mountain\" lamp that embodies these qualities, incorporating personal significance into its design while meeting technical and aesthetic requirements.",
     "pdfLink": "https://drive.google.com/file/d/1PXuNr7HW7m3VFRUU7jCyLDXo21HKoBnH/view?usp=drive_link",
-    "tools": ["React", "Node.js", "HTML", "CSS", "TypeScript"],
+    "tools": ["Rhino", "Laser Cutting", "Adobe: Indesign"],
     "summary": "I embarked on the project by experimenting with various design elements and materials, ultimately choosing laser cutting to achieve the intricate details necessary for the mountain lamp. Although the laser cutting process was time-consuming and presented its own set of challenges, it allowed for a high level of precision and personal expression in the final design. The result is a unique luminaire that radiates a warm, inviting glow, successfully marrying technical precision with a sense of personal significance, and ultimately adding both coziness and happiness to the intended space.",
     "course": "PRODUCT DESIGN"
   },
   {
     "imageSrc": "/projects photo/East Book End.png",
     "title": "East Book End",
-    "description": "left to do",
+    "description": "The site surrounding the Dushanbe Teahouse had become underused, with parking lots overwhelming the space and causing the area to feel disconnected. The task was to redesign the site to make it more functional, livable, and connected while respecting its history. The goal was to turn the site from being a one-attraction area into a vibrant, mixed-use space that brings in a variety of people for different uses throughout the day and year.",
     "pdfLink": "https://drive.google.com/file/d/1qxAFlWmF_knbNcJQEliQVT9enpY-5kLQ/view?usp=drive_link",
-    "tools": ["React", "Node.js", "HTML", "CSS", "TypeScript"],
-    "summary": "left to do",
-    "course": "PRODUCT DESIGN"
+    "tools": ["SketchUp", "GIS", "Adobe: Indesign"],
+    "summary": "By looking at the weaknesses and opportunities, I created a design that included a public market hall, expanded the Museum of Contemporary Art, and added the Persian Garden to enhance the Dushanbe Teahouse. New residential areas with green spaces were integrated, and meeting and event spaces were added to support the community. Parking was placed on the roof to free up valuable land, and improved transit and pedestrian paths made the site more accessible. As a result, the site transformed into a lively, interconnected space that supports residential, cultural, and commercial activities, making it a green, practical oasis in the heart of the city.",
+    "course": "URBAN PLANNING"
   },
   {
     "imageSrc": "/projects photo/Longmont.png",
     "title": "Longmont Connect",
-    "description": "left to do",
+    "description": "The site in Longmont, located near the historic downtown, was not being used effectively, with some areas becoming dumping grounds. This underutilization led to the decline of the surrounding area. The task was to redesign and transform the site into a functional, well-connected, and livable space that fits with Longmont's history and meets the needs of the community.",
     "pdfLink": "https://drive.google.com/file/d/1pvDATby55xdsAzmSIKQ_n8j9wnsz59nk/view?usp=drive_link",
-    "tools": ["React", "Node.js", "HTML", "CSS", "TypeScript"],
-    "summary": "left to do",
-    "course": "PRODUCT DESIGN"
+    "tools": ["SketchUp", "Excel", "Adobe: Indesign", "Adobe: Photoshop"],
+    "summary": "After visiting the site, our team created a plan to make better use of the space. The middle and eastern parts were redesigned to include apartments with green spaces and parking on the first floor. Bus transit was extended, pedestrian paths were improved, and more public spaces were added for better accessibility. The southern section was turned into an open gathering space with a café and spots for relaxation. We also included event spaces for things like farmers markets and community events. As a result, the site was revitalized, reconnecting it to Longmont’s historic downtown and turning it into a sustainable, vibrant, and functional urban space.",
+    "course": "URBAN PLANNING"
+  },
+  {
+    "imageSrc": "/projects photo/Plan.png",
+    "title": "Plan 2100: A2",
+    "description": "My group and I were tasked with creating a mixed-use development project plan for the Boulder Junction area in Boulder, Colorado. This plan aimed to revitalize the area by blending residential, commercial, and public spaces with an emphasis on sustainability and improving connectivity. We focused on creating a vibrant urban setting that integrates work, living, and recreational spaces to foster community interaction. The project also aimed to promote eco-friendly transportation options, enhance walkability, and encourage biking and public transport use, aligning with the city's sustainability goals.",
+    "pdfLink": "https://drive.google.com/file/d/1PNLquI1puvNAYN7Isds4pUR2UyGOxXKa/view?usp=drive_link",
+    "tools": ["SketchUp", "Excel", "Adobe: Indesign", "Adobe: Photoshop"],
+    "summary": "As part of the project, my group collaborated to design a comprehensive plan that integrated sustainable building practices, green technologies, and alternative transportation solutions. We analyzed the area's current conditions, identified key focus areas for development, and proposed improvements in transportation infrastructure, such as enhanced pedestrian access, bike paths, and local mobility hubs. Additionally, we proposed land use changes and zoning adjustments to support the development of mixed-use spaces that are both residential and commercial. Our recommendations included the expansion of local transit services and the integration of bike-sharing systems to increase accessibility and reduce the carbon footprint. The result of our work is a detailed, actionable development plan for Boulder Junction that addresses the area's current challenges while preparing it for future growth and sustainable living.",
+    "course": "URBAN PLANNING"
   }
 ]

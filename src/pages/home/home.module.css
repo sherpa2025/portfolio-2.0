@@ -1,6 +1,10 @@
 /* CSS for the type.tsx */
-.typewriter-text.नमस्ते {
-  font-family: "Noto Sans Devanagari", sans-serif; /* Font for Hindi text */
+.typewriter-text {
+  font-family: "Raleway", sans-serif;
+}
+
+.typewriter-text.namaste {
+  font-family: "Noto Sans Devanagari", "Mangal", sans-serif; /* Font for Hindi text */
 }
 
 /* CSS for the home.tsx */
