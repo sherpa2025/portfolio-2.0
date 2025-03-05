@@ -37,7 +37,7 @@ function Home() {
                 </div>
                 <span className={style["break-line"]}>
                   <a
-                    href="https://www.linkedin.com/in/nimadorjee/"
+                    href="https://www.linkedin.com/in/dawayanji/"
                     target="_blank"
                   >
                     <img
