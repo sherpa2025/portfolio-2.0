@@ -12,6 +12,7 @@ import indesign from "../../assets/indesign.png";
 import photoshop from "../../assets/photoshop.png";
 import rhino from "../../assets/rhino.png";
 import sketchup from "../../assets/sketchup.png";
+import googleEarth from "../../assets/googleearth.png";
 import linkedin from "../../assets/linkedin.svg";
 import dawa from "../../assets/dawa.png";
 
@@ -146,7 +147,7 @@ function Home() {
               { src: photoshop, name: "Photoshop" },
               { src: rhino, name: "Rhino 7" },
               { src: sketchup, name: "SketchUp 7" },
-              { src: sketchup, name: "Google Earth" },
+              { src: googleEarth, name: "Google Earth" },
             ].map((tool, index) => (
               <div key={index} className={style["tool"]}>
                 <img
