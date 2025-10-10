@@ -108,8 +108,16 @@ function Home() {
                         Tech 3: App for ENVD
                       </ListItem>
                       <ListItem>
-                        <ListIcon as={MdError} color="yellow.500" />
+                        <ListIcon as={MdError} color="green.500" />
                         Intermediate Planning
+                      </ListItem>
+                      <ListItem>
+                        <ListIcon as={MdError} color="yellow.500" />
+                        Contamination to Community: Urban Design for Sugar Mill
+                      </ListItem>
+                      <ListItem>
+                        <ListIcon as={MdError} color="yellow.500" />
+                        Sustainable Futures Planning
                       </ListItem>
                     </List>
                   </div>
@@ -138,6 +146,7 @@ function Home() {
               { src: photoshop, name: "Photoshop" },
               { src: rhino, name: "Rhino 7" },
               { src: sketchup, name: "SketchUp 7" },
+              { src: sketchup, name: "Google Earth" },
             ].map((tool, index) => (
               <div key={index} className={style["tool"]}>
                 <img
