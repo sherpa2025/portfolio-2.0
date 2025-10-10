@@ -109,7 +109,7 @@ function Home() {
                         Tech 3: App for ENVD
                       </ListItem>
                       <ListItem>
-                        <ListIcon as={MdError} color="green.500" />
+                        <ListIcon as={MdCheckCircle} color="green.500" />
                         Intermediate Planning
                       </ListItem>
                       <ListItem>
