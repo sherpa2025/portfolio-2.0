@@ -73,7 +73,7 @@ function Home() {
                   MYSELF
                 </div>
                 <div className={style["introduction"]}>
-                  I’m a junior pursuing a
+                  I’m a senior pursuing a
                   <strong className={style["main-name"]}>
                     {" "}
                     Bachelor of Science in Environmental Design{" "}
